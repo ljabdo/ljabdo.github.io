@@ -5,58 +5,94 @@
     rel="stylesheet"
     type="text/css">
 
-<style>
-    .teal-text{
-        color: #2DC9C1;
-    }
-    
-    .font {
-        font-family: 'Kaisei Decol', serif;
-    }
-
-    .center{
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        padding: 10px;
-    }
-
-    h1 {
-        text-align: center;
-    }
-
-    p {
-        font-size: 16px;
-        font-family: monospace;
-    }
-
-    body {
-        background-image: url('background.JPG');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 960px;
-        height: 200px;
-    }
-</style>
-
 <head>
-    <h1 class="teal-text font center" style="margin:auto">
+
+    <meta name="viewport" conten="width=device-width,
+        initial-scale=1">
+
+    <style>
+
+        body, html{
+            height: 100%;
+            margin: 0;
+            font-family: 'Kaisei Decol', serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .teal-text{
+            color: #2DC9C1;
+        }
+
+        .center{
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            padding: 10px;
+        }
+
+        .bg-text{
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0, 0.4);
+            color: white;
+            font-size: 80px;
+            border: 10px solid rgb(0,0,0);
+            position: fixed;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 16px;
+            font-family: monospace;
+        }
+
+        .bg-img {
+            height: 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 960px;
+            height: 200px;
+        }
+
+        .img1{
+            background-image: url('background.JPG');
+        }
+
+        .img2{
+            background-image: url('stars.JPG');
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="im1 bg-img"></div>
+    <div class="im2 bg-img"></div>
+
+    <h1 class="font bg-text">
         Lucas Abdo</h1>
-    <!-- <img src="background.JPG" alt="SlO hills"> 
-    -->
+
     <h2 class="font center">
         Third Year Computer Engineering Study At 
         California Polytechnic University, San Luis Obispo
     </h2>
-</head>
 
-<body>
-<p class="center" style="text-align:center">
+    <p class="center" style="text-align:center">
     Welcome to my website. Feel free to broswe around. This is my lifes
     work so far and up to date. My current endeavor is to explore the infinite
     possibles that technology has to offer and to better myself every day.
     Cheers.
-</p>
+    </p>
+
 </body>
+
 
 </html>
